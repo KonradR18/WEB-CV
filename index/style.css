@@ -9,7 +9,8 @@ body{
     border: 2px solid #0B8673;
     background-color: #F5FAFF;
 }
-#header{
+header{
+    width:60%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,24 +20,64 @@ body{
     background-color: #0B8673;
     height: 150px;
     width: 250px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 #P1{
     background-color: #0B8673;
 height: 150px;
 width:250px;
+display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 #P2{
     background-color: #0B8673;
     height: 150px;
     width: 250px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 #P3{
     background-color: #0B8673;
     height: 150px;
     width: 250px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
-#aside{
+#macka{
+    height: 150px;
+    width: 250px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;  
+}
+aside{
     display:flex;
     flex-direction: column;
-    
+    align-items: flex-end;
+}
+ul{
+   margin-right: 60px;
+}
+#right-top{
+
 }
