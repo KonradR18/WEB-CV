@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: Nunito;
+}
+
+body {
+  background-color: #fff;
+  border: 3px solid black;
+  width: 100%;
+  margin: 10px auto;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+
+}
+
+#pierwszy {
+    width: 54%;
+  display: flex;
+  gap: 10px;
+  border: 2px solid black;
+  padding: 6px;
+  display:flex;
+  justify-content: space-between;
+}
+
+#pierwszy button {
+  width: 100px;
+  height: 50px;
+  background-color: #0B8673;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+#drugi {
+  border: 2px solid black;
+  padding: 4px;
+  text-align: center;
+  width: 45%;
+  height: 66px;
+}
+#drugi > img{
+  height: 3vh;
+}
+
+main {
+    width: 75%;
+    height:75vh;
+  border: 2px solid black;
+}
+
+#trzeci {
+  display: flex;
+  padding: 10px;
+}
+
+#trzeci img {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+#czwarty {
+  flex: 1;
+}
+
+#czwarty h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#osmy {
+  width: 30%;
+  padding-left: 10px;
+}
+
+#osmy h2 {
+  list-style-type: style type line;;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+#osmy ul {
+  list-style: none;
+  line-height: 1.4;
+}
+
+#piaty {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#szosty, #siodmy {
+  flex-direction: column;
+  height: 35vh;
+  width: 45%;
+  border: 2px solid black;
+  padding: 6px;
+  display:flex;
+}
+
+#siodmy form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#siodmy input, #siodmy textarea {
+  border: 1px solid black;
+  resize: none;
+  height: 40px;
+}
+
+#siodmy textarea {
+  height: 80px;
+}
+
+#dziewiaty {
+    gap:5px;
+    padding: 6%;
+    border: 2px solid black;
+    
+      display:flex;
+    justify-content: flex-end;
+}
+
+footer {
+  border-top: 2px dashed black;
+  display: flex;
+  justify-content: flex-end;
+  height: 20vh;
+  margin: 5%;
+  width:100%;
+}
+
+#szosty p{
+  display: flex;  
+  flex-direction: row;
+  background-color: black;
+    color: white;
+}
+
+#siodmy > h2{
+  display:flex;
+  flex-direction: column;  
+  color: white;
+    background-color: black;
+}
+#osmy{
+  display:flex;
+  flex-direction: column;
+}
+img{
+  width:40%;
+  height: 40%;
+  }
+#dziewiaty{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-end;
+justify-content: flex-end;
+width:30%;
+margin: 5%;
+}
+#p-g{
+  display:flex;
+  width:90vw;
+}
+
